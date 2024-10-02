@@ -21,6 +21,4 @@ public class Musica {
     private long reproducoes;
     private boolean explicito;
 
-    @OneToOne
-    private Genero genero;
 }

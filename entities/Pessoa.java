@@ -25,10 +25,6 @@ public class Pessoa {
     @Column(nullable = false)
     private String email;
 
-    @Column(nullable = false)
-    @OneToOne
-    private Perfil perfil;
-
     private boolean verificado;
 
     @OneToMany
